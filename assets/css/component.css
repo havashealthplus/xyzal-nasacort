@@ -1,0 +1,80 @@
+.site-header {
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(13,13,13,0.4);
+  font-family: 'Rokkitt-Light';
+}
+
+a.menu-link {
+	display: block;
+	width: 75px;
+	margin: auto auto;
+  padding: 15px;
+  text-align: center;
+}
+
+a.menu-link.active {
+	transition-duration: 0.3s;
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	     -o-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+
+nav[role=navigation] {
+	clear: both;
+	-webkit-transition: all 0.3s ease-out;  
+		 -moz-transition: all 0.3s ease-out;
+			-ms-transition: all 0.3s ease-out;
+			 -o-transition: all 0.3s ease-out;
+			    transition: all 0.3s ease-out;
+}
+
+.js nav[role=navigation] {
+  overflow: hidden;
+	max-height: 0;
+}
+
+nav[role=navigation].active {
+	max-height: 500px;
+}
+
+nav[role=navigation] ul {
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid #eeeeee;
+	text-align: center;
+}
+
+nav[role=navigation] li a {
+  display: block;
+  padding: 25px 15px;
+	border-bottom: 1px solid #eeeeee;
+	text-decoration: none;
+	color: inherit;
+}
+		
+@media screen and (min-width: 992px) {
+	a.menu-link {
+		display: none;
+	}
+	.js nav[role=navigation] {
+		max-height: none;
+	}
+	nav[role=navigation] ul {
+		margin: 0 0 0 -0.25em;
+		border: 0;
+	}	
+	nav[role=navigation]  li {
+		display: inline-block;
+		margin: 0 0.25em;
+	}
+	nav[role=navigation] li a {
+		border: 0;
+	}
+}
+
+
+
+
+
