@@ -152,6 +152,14 @@ section {
   color: #ffffff;
 }
 
+#brief h4 {
+  padding-bottom: 15px;
+}
+
+#brief p {
+  padding-top: 15px;
+}
+
 /* philosophy */
 table {
   font-family: arial, sans-serif;
