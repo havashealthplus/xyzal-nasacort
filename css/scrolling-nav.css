@@ -210,7 +210,24 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
   }
 }
 
+/* approach */
+#approach {
+  background: #ec1d3a;
+  color: #ffffff;
+}
 
+/* prep */
+#prep h3 {
+  padding-bottom: 30px;
+}
+
+#prep h4 {
+  padding-bottom: 30px;
+}
+
+#prep img {
+  padding-bottom: 20px;
+}
 
 
 
