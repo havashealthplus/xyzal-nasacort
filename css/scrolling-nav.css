@@ -210,6 +210,12 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
   }
 }
 
+/* market strategy */
+#market-strat {
+  background: #231f20;
+  color: #ffffff;
+}
+
 /* approach */
 #approach {
   background: #ec1d3a;
