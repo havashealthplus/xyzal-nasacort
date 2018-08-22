@@ -141,6 +141,17 @@ section {
 	font-size: 18px;
 }
 
+/* text tilting */
+.tilt-left {
+  transform: rotate(-7deg);
+  padding: 25px 0;
+}
+
+.tilt-right {
+  transform: rotate(7deg);
+  padding: 25px 0;
+}
+
 /* intro */
 #intro h4 {
   padding: 25px 0 50px;
@@ -165,6 +176,7 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 td, th {
