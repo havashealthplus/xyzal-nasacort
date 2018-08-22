@@ -1,0 +1,212 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+ @font-face {
+  font-family: 'Rokkitt-Light';
+  src: url('../webfonts/Rokkitt-Light.eot');
+  src: url('../webfonts/Rokkitt-Light.woff2') format('woff2'),
+       url('../webfonts/Rokkitt-Light.woff') format('woff'),
+       url('../webfonts/Rokkitt-Light.ttf') format('truetype'),
+       url('../webfonts/Rokkitt-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../webfonts/Montserrat-Bold.eot');
+  src: url('../webfonts/Montserrat-Bold.woff2') format('woff2'),
+       url('../webfonts/Montserrat-Bold.woff') format('woff'),
+       url('../webfonts/Montserrat-Bold.ttf') format('truetype'),
+       url('../webfonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3,
+h4, h5, h6,
+p, span, li, a {
+  font-weight: 300;
+  font-style: normal;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+     -moz-font-smoothing: antialiased;
+       -o-font-smoothing: antialiased;
+}
+
+.rokk {
+  font-family: 'Rokkitt-Light';
+}
+
+.mont {
+	font-family: 'Montserrat-Bold';
+	font-weight: normal;
+  text-transform: uppercase;
+}
+
+header {
+  padding: 154px 0 100px;
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+
+/* navigation */
+.navbar {
+  background: #ffffff;
+}
+
+.navbar-brand {
+	width: 50px;
+  transition-duration: 0.5s;
+}
+
+.navbar-brand:hover {
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  background: transparent !important;
+}
+
+.navbar-toggler .icon-bar {
+  background-color: #000;
+  transform: rotate(0deg) translate(0px, 0px);
+  transition: ease all .2s;
+}
+
+.navbar-toggler .icon-bar {
+  display: block;
+  width: 28px;
+  height: 2px;
+}
+
+.navbar-toggler .icon-bar+.icon-bar {
+  margin-top: 4px;
+}
+
+.icon-bar:nth-child(2) {
+  width: 22px;
+  transition: ease all .2s;
+}
+
+.navbar-toggler:hover>.icon-bar:nth-child(2) {
+  width: 28px;
+  transition: ease all .2s;
+}
+
+.navbar-toggler:active>.icon-bar:nth-child(2) {
+  width: 28px;
+  transition: ease all .2s;
+}
+
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 4px);
+  transition: ease all .2s;
+}
+
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(2) {
+  opacity: 0;
+  transition: ease all .2s;
+}
+
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
+  transform: rotate(-45deg) translate(4px, -4px);
+  transition: ease all .2s;
+}
+
+.nav-item {
+	font-family: 'Rokkitt-Light';
+	font-size: 18px;
+}
+
+/* intro */
+#intro h4 {
+  padding: 25px 0 50px;
+}
+
+/* brief */
+#brief {
+  background: #ec1d3a;
+  color: #ffffff;
+}
+
+/* philosophy */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border-bottom: 1px dotted #333333;
+  text-align: left;
+  padding: 15px 0;
+}
+
+tr:nth-of-type(1), tr:nth-of-type(3), tr:nth-of-type(6) {
+  color: #ec1d3a;
+}
+
+tr:nth-of-type(1) {
+  border-bottom: 2px solid #ec1d3a;
+}
+
+tr:nth-of-type(3) b, tr:nth-of-type(6) b {
+  color: #000;
+}
+
+
+@media (min-width: 768px) {
+  td, th {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  td, th {
+    font-size: 24px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
