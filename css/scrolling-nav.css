@@ -62,11 +62,21 @@ section {
   padding: 100px 0;
 }
 
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
+.mobile {
+  display: block;
+}
+
+.desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
 }
 
 /* navigation */
@@ -284,7 +294,21 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
   color: #ec1d3a;
 }
 
+/* team */
+.person {
+  width: 100%;
+}
+.person-img {
+    height: auto;
+    width: auto;
+    background-image: url('http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
 
+.person-img:hover {
+    background-image: url('http://www.online-image-editor.com//styles/2014/images/example_image.png');
+}
 
 
 
