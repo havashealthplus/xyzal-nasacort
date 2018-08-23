@@ -310,6 +310,17 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
   color: #ec1d3a;
 }
 
+/* cases */
+#reeses {
+  background: #231f20;
+  color: #ffffff;
+}
+
+#rftca {
+  background: #ec1d3a;
+  color: #ffffff;
+}
+
 /* team */
 .person {
   width: 100%;
@@ -321,8 +332,23 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
   padding-bottom: 10px;
 }
 
+/* contact */
+#contact {
+  background: #ec1d3a;
+  color: #ffffff;
+}
 
+#contact a {
+  color: inherit;
+  text-decoration: underline;
+}
 
+#contact img {
+  display: block;
+  margin: auto auto;
+  padding-bottom: 20px;
+  border-radius: 50%;
+}
 
 
 
