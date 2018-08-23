@@ -59,7 +59,14 @@ header {
 }
 
 section {
-  padding: 150px 0;
+  padding: 100px 0;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
 
 /* navigation */
@@ -81,6 +88,7 @@ section {
 }
 
 .navbar-toggler {
+  padding: .25rem 0;
   border: none;
   background: transparent !important;
 }
@@ -139,6 +147,28 @@ section {
 .nav-item {
 	font-family: 'Rokkitt-Light';
 	font-size: 18px;
+}
+
+/* standard button */
+.btn-standard {
+  display: inline-block;
+  margin-bottom: 25px;
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+  background: #000;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-standard:hover {
+  background: #666;
+  color: #fff;
+}
+
+.btn-standard:focus {
+  outline: none;
 }
 
 /* text tilting */
@@ -235,12 +265,24 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
   padding-bottom: 20px;
 }
 
+/* voice */
+.voice-item {
+  padding: 15px;
+  background: #ec1d3a;
+  color: #ffffff;
+}
 
+/* osep */
+.card {
+  margin: 15px 0;
+  padding: 25px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
 
-
-
-
-
+.red {
+  color: #ec1d3a;
+}
 
 
 
