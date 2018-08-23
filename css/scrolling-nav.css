@@ -25,6 +25,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../webfonts/Montserrat-Light.eot');
+  src: url('../webfonts/Montserrat-Light.woff2') format('woff2'),
+       url('../webfonts/Montserrat-Light.woff') format('woff'),
+       url('../webfonts/Montserrat-Light.ttf') format('truetype'),
+       url('../webfonts/Montserrat-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1, h2, h3,
 h4, h5, h6,
 p, span, li, a {
@@ -44,6 +55,11 @@ p, span, li, a {
 	font-family: 'Montserrat-Bold';
 	font-weight: normal;
   text-transform: uppercase;
+}
+
+.mont-lt {
+  font-family: 'Montserrat-Light';
+  font-weight: normal;
 }
 
 header {
@@ -301,10 +317,8 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
 
 }
 
-.person {
-  -webkit-transition: all .3s ease-in-out;
--moz-transition: all .3s ease-in-out;
-transition: all .3s ease-in-out;
+.person img {
+  padding-bottom: 10px;
 }
 
 
