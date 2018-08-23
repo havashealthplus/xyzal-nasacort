@@ -297,17 +297,14 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
 /* team */
 .person {
   width: 100%;
-}
-.person-img {
-    height: auto;
-    width: auto;
-    background-image: url('http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
+  margin-bottom: 30px;
+
 }
 
-.person-img:hover {
-    background-image: url('http://www.online-image-editor.com//styles/2014/images/example_image.png');
+.person {
+  -webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
 }
 
 

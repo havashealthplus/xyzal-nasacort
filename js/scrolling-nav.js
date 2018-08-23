@@ -28,12 +28,144 @@
 
 })(jQuery); // End of use strict
 
+
+// profiles
 $(document).ready(function () {
-  $('.imgh')
+  $('.dennis')
     .mouseover(function () {
-    $(this).attr("src", "http://taditdash.files.wordpress.com/2014/01/tadit-dash.jpg");
+    $(this).attr("src", "images/dennis-insta.png");
   })
   .mouseout(function () {
-    $(this).attr("src", "http://taditdash.files.wordpress.com/2014/01/tadit-dash.jpg");
+    $(this).attr("src", "images/dennis.png");
   });
 });
+
+$(document).ready(function () {
+  $('.allison')
+    .mouseover(function () {
+    $(this).attr("src", "images/allison-insta.png");
+  })
+  .mouseout(function () {
+    $(this).attr("src", "images/allison.png");
+  });
+});
+
+$(document).ready(function () {
+  $('.claudia')
+    .mouseover(function () {
+    $(this).attr("src", "images/claudia-insta.png");
+  })
+  .mouseout(function () {
+    $(this).attr("src", "images/claudia.png");
+  });
+});
+
+$(document).ready(function () {
+  $('.huy')
+    .mouseover(function () {
+    $(this).attr("src", "images/huy-insta.png");
+  })
+  .mouseout(function () {
+    $(this).attr("src", "images/huy.png");
+  });
+});
+
+$(document).ready(function () {
+  $('.kellyle')
+    .mouseover(function () {
+    $(this).attr("src", "images/kellyle-insta.png");
+  })
+  .mouseout(function () {
+    $(this).attr("src", "images/kellyle.png");
+  });
+});
+
+$(document).ready(function () {
+  $('.aaron')
+    .mouseover(function () {
+    $(this).attr("src", "images/aaron-insta.png");
+  })
+  .mouseout(function () {
+    $(this).attr("src", "images/aaron.png");
+  });
+});
+
+$(document).ready(function () {
+  $('.kate')
+    .mouseover(function () {
+    $(this).attr("src", "images/kate-insta.png");
+  })
+  .mouseout(function () {
+    $(this).attr("src", "images/kate.png");
+  });
+});
+
+$(document).ready(function () {
+  $('.steve')
+    .mouseover(function () {
+    $(this).attr("src", "images/steve-insta.png");
+  })
+  .mouseout(function () {
+    $(this).attr("src", "images/steve.png");
+  });
+});
+
+$(document).ready(function () {
+  $('.barry')
+    .mouseover(function () {
+    $(this).attr("src", "images/barry-insta.png");
+  })
+  .mouseout(function () {
+    $(this).attr("src", "images/barry.png");
+  });
+});
+
+$(document).ready(function () {
+  $('.bam')
+    .mouseover(function () {
+    $(this).attr("src", "images/bam-insta.png");
+  })
+  .mouseout(function () {
+    $(this).attr("src", "images/bam.png");
+  });
+});
+
+$(document).ready(function () {
+  $('.tyler')
+    .mouseover(function () {
+    $(this).attr("src", "images/tyler-insta.png");
+  })
+  .mouseout(function () {
+    $(this).attr("src", "images/tyler.png");
+  });
+});
+
+$(document).ready(function () {
+  $('.kelly')
+    .mouseover(function () {
+    $(this).attr("src", "images/kelly-insta.png");
+  })
+  .mouseout(function () {
+    $(this).attr("src", "images/kelly.png");
+  });
+});
+
+$(document).ready(function () {
+  $('.jill')
+    .mouseover(function () {
+    $(this).attr("src", "images/jill-insta.png");
+  })
+  .mouseout(function () {
+    $(this).attr("src", "images/jill.png");
+  });
+});
+
+
+
+
+
+
+
+
+
+
