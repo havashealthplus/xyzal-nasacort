@@ -298,6 +298,12 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
   color: #ffffff;
 }
 
+/* optimize */
+#optimize {
+  background: #231f20;
+  color: #ffffff;
+}
+
 /* osep */
 .card {
   margin: 15px 0;
@@ -311,6 +317,12 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
 }
 
 /* cases */
+#video {
+  width: 100%;
+  margin: 1.5rem 0;
+  background-color: #f8f8f8;
+}
+
 #reeses {
   background: #231f20;
   color: #ffffff;
