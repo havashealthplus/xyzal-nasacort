@@ -370,6 +370,7 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
 
 /* big backgrounds */
 #header {
+  background: url('../images/header.png');
   background: url('../images/header.svg') no-repeat center center fixed; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -379,6 +380,7 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
 }
 
 #philosophy {
+  background: url('../images/philosophy.png');
   background: url('../images/philosophy.svg') no-repeat center center fixed; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -388,6 +390,7 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
 }
 
 #approach {
+  background: url('../images/approach.png');
   background: url('../images/approach.svg') no-repeat center center fixed; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -397,6 +400,7 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
 }
 
 #team {
+  background: url('../images/team.png');
   background: url('../images/team.svg') no-repeat center center fixed; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -406,6 +410,7 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
 }
 
 #plus {
+  background: url('../images/plus.png');
   background: url('../images/plus.svg') no-repeat center center fixed; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -415,6 +420,7 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
 }
 
 #process {
+  background: url('../images/process.png');
   background: url('../images/process.svg') no-repeat center center fixed; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -424,6 +430,7 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
 }
 
 #brief {
+  background: url('../images/brief.png');
   background: url('../images/brief.svg') no-repeat center center fixed; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -433,6 +440,7 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
 }
 
 #cases {
+  background: url('../images/cases.png');
   background: url('../images/cases.svg') no-repeat center center fixed; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
