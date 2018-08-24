@@ -431,6 +431,15 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
   color: #ffffff;
 }
 
+#cases {
+  background: url('../images/cases.svg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  color: #000000;
+}
+
 
 
 
