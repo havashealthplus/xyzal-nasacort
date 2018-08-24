@@ -63,17 +63,19 @@ p, span, li, a {
 }
 
 header {
-  padding: 100px 0;
-  background: transparent !important;
-  background-color: transparent !important;
+  padding: 150px 0 100px;
+}
+
+.breaker {
+  padding: 150px 0;
 }
 
 @media (min-width: 992px) {
   header {
-    padding: 150px 0 100px;
+    padding: 200px 0 100px;
   }
   .breaker {
-    padding: 150px 0 100px;
+    padding: 250px 0;
   }
 }
 
@@ -278,7 +280,7 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
 }
 
 /* approach */
-#approach {
+#fundamentals {
   background: #ec1d3a;
   color: #ffffff;
 }
@@ -368,12 +370,58 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
 }
 
 /* big backgrounds */
-#philosophy {
-  background: url(images/philosophy.jpg) no-repeat center center fixed; 
+#header {
+  background: url('../images/header.svg') no-repeat center center fixed; 
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  color: #ffffff;
+}
+
+#philosophy {
+  background: url('../images/philosophy.svg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  color: #ffffff;
+}
+
+#approach {
+  background: url('../images/approach.svg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  color: #000000;
+}
+
+#team {
+  background: url('../images/team.svg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  color: #ffffff;
+}
+
+#plus {
+  background: url('../images/plus.svg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  color: #ffffff;
+}
+
+#process {
+  background: url('../images/process.svg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  color: #ffffff;
 }
 
 
