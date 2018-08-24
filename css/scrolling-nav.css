@@ -68,7 +68,7 @@ header {
 
 .breaker {
   height: 100%;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 @media (min-width: 992px) {
@@ -76,7 +76,7 @@ header {
     padding: 200px 0 75px;
   }
   .breaker {
-    padding: 250px 0;
+    padding: 150px 0;
   }
 }
 
@@ -177,8 +177,9 @@ section {
 }
 
 .nav-item {
-	font-family: 'Rokkitt-Light';
-	font-size: 18px;
+	font-family: 'Montserrat-Bold';
+  font-weight: normal;
+  text-align: center;
 }
 
 /* standard button */
