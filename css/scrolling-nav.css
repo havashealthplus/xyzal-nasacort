@@ -369,74 +369,90 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
 
 /* big backgrounds */
 #header {
-  background: url('../images/header.svg') no-repeat center center fixed; 
+  background: url('../images/header.svg') no-repeat; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
   color: #ffffff;
 }
 
 #philosophy {
-  background: url('../images/philosophy.svg') no-repeat center center fixed; 
+  background: url('../images/philosophy.svg') no-repeat; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
   color: #ffffff;
 }
 
 #approach {
-  background: url('../images/approach.svg') no-repeat center center fixed; 
+  background: url('../images/approach.svg') no-repeat; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
   color: #000000;
 }
 
 #team {
-  background: url('../images/team.svg') no-repeat center center fixed; 
+  background: url('../images/team.svg') no-repeat; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
   color: #ffffff;
 }
 
 #plus {
-  background: url('../images/plus.svg') no-repeat center center fixed; 
+  background: url('../images/plus.svg') no-repeat; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
   color: #ffffff;
 }
 
 #process {
-  background: url('../images/process.svg') no-repeat center center fixed; 
+  background: url('../images/process.svg') no-repeat; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
   color: #ffffff;
 }
 
 #brief {
-  background: url('../images/brief.svg') no-repeat center center fixed; 
+  background: url('../images/brief.svg') no-repeat; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
   color: #ffffff;
 }
 
 #cases {
-  background: url('../images/cases.svg') no-repeat center center fixed; 
+  background: url('../images/cases.svg') no-repeat; 
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
   color: #000000;
 }
 
