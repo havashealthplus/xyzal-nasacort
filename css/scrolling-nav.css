@@ -47,6 +47,13 @@ p, span, li, a {
        -o-font-smoothing: antialiased;
 }
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .rokk {
   font-family: 'Rokkitt-Light';
 }
