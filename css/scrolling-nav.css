@@ -63,7 +63,7 @@ p, span, li, a {
 }
 
 header {
-  padding: 150px 0 100px;
+  padding: 150px 0 75px;
 }
 
 .breaker {
@@ -72,7 +72,7 @@ header {
 
 @media (min-width: 992px) {
   header {
-    padding: 200px 0 100px;
+    padding: 200px 0 75px;
   }
   .breaker {
     padding: 250px 0;
@@ -80,10 +80,8 @@ header {
 }
 
 section {
-  padding: 100px 0;
+  padding: 75px 0;
 }
-
-
 
 .mobile {
   display: block;
@@ -221,16 +219,16 @@ section {
 }
 
 /* brief */
-#brief {
+#brief-info {
   background: #ec1d3a;
   color: #ffffff;
 }
 
-#brief h4 {
+#brief-info h4 {
   padding-bottom: 15px;
 }
 
-#brief p {
+#brief-info p {
   padding-top: 15px;
 }
 
@@ -424,6 +422,14 @@ tr:nth-of-type(3) b, tr:nth-of-type(6) b {
   color: #ffffff;
 }
 
+#brief {
+  background: url('../images/brief.svg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  color: #ffffff;
+}
 
 
 
